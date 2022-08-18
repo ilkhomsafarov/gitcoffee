@@ -1,0 +1,91 @@
+.commit{
+    width: 100%;
+    margin-bottom: 158px;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .commit__content{
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 40%;
+                border-radius: 10px;
+                height: 100%;
+            }
+            .commit__texts{
+                width: 50%;
+                h2{
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    color: #333D4B;
+                    margin-bottom: 32px;
+
+                }
+                p{
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px; 
+                    color: #333D4B;
+                    line-height: 26px;
+                }
+
+            }
+        }
+    }
+}
+@media only screen and (max-width:710px){
+    .commit{
+        .container{
+            .commit__content{
+                width: 100%;
+                
+                .commit__texts{
+                    width: 55%;
+                    h2{
+                        font-size: 32px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:560px){
+    .commit{
+        margin-bottom: 480px;
+        .container{
+            .commit__content{
+                img{
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+                .commit__texts{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    h2{
+                        width: 100%;
+                        text-align: center;
+                    }
+                    p{
+                        width: 100%;
+                        text-align: center;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

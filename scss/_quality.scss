@@ -1,0 +1,94 @@
+.quality{
+        width: 100%;
+     .container{
+            padding-top: 88px;
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            background: #2C343E;
+            border-radius: 10px;
+        img{
+            width: 35%;
+            height: 100%;
+            position: absolute;
+            right: 5%;
+            top: -10%;
+            border-radius: 8px;
+        }
+        .quality__text{
+            width: 50%;
+            margin-left: 5%;
+            h2{
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: #FEFCF7;
+                margin-bottom: 32px;
+            }
+            p{
+                width: 80%;
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FEFCF7;
+                margin-bottom: 176px;
+            }
+        }
+    
+    }
+}
+
+@media only screen and (max-width:720px){
+    .quality{
+        .container{
+                img{
+                    width: 90%;
+                    height: 40%;
+                    left: 5%;
+                }   
+            .quality__text{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-left: 0;
+                padding-top: 30%;
+                h2{
+                    width: 100%;
+                    text-align: center;
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 30px;
+                    line-height: 48px;
+                    color: #FEFCF7;
+                
+                }
+                p{
+                    width: 90%;
+                    text-align: center;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #FEFCF7;
+                }
+            }    
+        }
+    }
+}
+
+@media only screen and (max-width:443px){
+    .quality{
+        .container{
+            .quality__text{
+                padding-top: 50%;
+            }
+        }
+    }
+}
